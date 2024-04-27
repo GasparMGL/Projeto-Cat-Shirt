@@ -1,4 +1,4 @@
-*{
+* {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -23,7 +23,7 @@ header {
     z-index: 1000;
 }
 
-header img{
+header img {
     width: 50px;
     margin-right: 8px;
 }
@@ -33,7 +33,7 @@ header h1 {
     margin-right: 500px;
 }
 
-header li{
+header li {
     display: inline;
     margin-right: 16px;
     font-size: 24px;
@@ -41,46 +41,113 @@ header li{
     font-weight:800;
 }
 
-header li a{
+header li a {
     text-decoration: none;
     color: #1A4D2E;
 }
 
-.container{
+.container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content:center;
 }
 
-section img{
+section img {
 
     width: 400px;
     margin-right: 50px;
     margin-top: 150px;
 }
 
-section .container{
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.about_content h2{
-    margin-top: 100px;
+.img_about{
+    width: 600px;
+    margin-bottom: 100px;
 }
 
-.brand-list li{
+.brand-list li {
     display: inline;
 }
-.brand-list img{
+
+.brand-list img {
     width: 75px;
     margin-top: 20px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #FFF7D4;
+    color: #4793AF;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4793AF;
+    color: #FFF7D4;
+}
+
+input:focus, textarea:focus {
+    outline-color: #4793AF;
+}
+
+.social-links img {
+    height: 24px;
+    width: auto;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF7D4;
+    color: #4793AF;   
+    padding: 16px 0;
 }
