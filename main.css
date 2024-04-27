@@ -7,12 +7,20 @@
     font-family: Catfont;
     src: url(./Cat\ paw.ttf);
 }
+body {
+    background-image: url("./Imagem/fundo.jpeg");
+}
 
 header {
     background-color: #FFF7D4;
     color: #4793AF;
-    padding: 16px 0px;
+    padding: 8px 20px;
     font-family: "Shadows Into Light", cursive;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 header img{
@@ -22,7 +30,7 @@ header img{
 
 header h1 {
     font-size: 48px;
-    margin-right: 570px;
+    margin-right: 500px;
 }
 
 header li{
@@ -42,22 +50,37 @@ header li a{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 header .container{
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
 }
 
 section img{
+
     width: 400px;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+}
+
+.about_content h2{
+    margin-top: 100px;
+}
+
+.brand-list li{
+    display: inline;
+}
+.brand-list img{
+    width: 75px;
+    margin-top: 20px;
 }
